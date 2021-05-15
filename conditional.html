@@ -16,3 +16,13 @@
 <ng-template #elseBlock2>
    <h1>else block</h1>
 </ng-template>
+
+<ng-template [ngIf]="show=='red'">
+<h1>Red Block</h1>
+</ng-template>
+<ng-template [ngIf]="show=='green'">
+<h1>Green Block</h1>
+</ng-template>
+<ng-template [ngIf]="show=='blue'">
+ <h1>blue Block</h1>
+</ng-template>
