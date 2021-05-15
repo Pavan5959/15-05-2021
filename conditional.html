@@ -1,0 +1,18 @@
+<h1>Conditional Statements</h1>
+<h2 *ngIf="show else elseBlock1">
+   If Block
+</h2>
+
+<ng-template #elseBlock1>
+   <h1>else block</h1>
+</ng-template>
+
+<h2 *ngIf="shows='yes' then ifBlock else elseBlock2">
+   If Block
+</h2>
+<ng-template #ifBlock>
+   <h1>if Block</h1>
+</ng-template>
+<ng-template #elseBlock2>
+   <h1>else block</h1>
+</ng-template>
